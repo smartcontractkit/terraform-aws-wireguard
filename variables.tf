@@ -86,3 +86,9 @@ variable "peers_bucket_access_vpcs" {
   default     = ["mgnt"]
   description = "List of VPC names that will be allowed to access the peers bucket"
 }
+
+variable "account_id" {
+  type        = string
+  description = "AWS account ID where the VPCs are located"
+  default     = "804282218731"
+}
